@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Leon Ji",
@@ -23,6 +23,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-modal": "^3.10.1",
+    "react-router-dom": "^5.0.1",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.39.3",
