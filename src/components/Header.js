@@ -10,9 +10,9 @@ const Header = () => (
     <NavLink to="/create" activeClassName="is-active">
       create
     </NavLink>
-    <NavLink to="/edit" activeClassName="is-active">
+    {/* <NavLink to="/edit" activeClassName="is-active">
       edit
-    </NavLink>
+    </NavLink> */}
     <NavLink to="/help" activeClassName="is-active">
       help
     </NavLink>
