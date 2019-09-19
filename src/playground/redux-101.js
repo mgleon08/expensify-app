@@ -18,7 +18,12 @@ const setCount = ({ count }) => ({
 const resetCount = () => ({
   type: 'RESET',
 });
-const store = createStore((state = { count: 0 }, action) => {
+
+// Reducers
+// 1. Reducers are pure function
+// 2. Never change state or action
+
+const countReducer = (state = { count: 0 }, action) => {
   switch (action.type) {
     case 'INCREMENT':
       return {
@@ -41,7 +46,9 @@ const store = createStore((state = { count: 0 }, action) => {
     default:
       return state;
   }
-});
+};
+
+const store = createStore(countReducer);
 
 // return function 可以解除監聽 state
 const unsubscribe = store.subscribe(() => {
