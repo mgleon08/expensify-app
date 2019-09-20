@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/playground/redux-101.js',
+  entry: './src/app.js',
   mode: 'development',
   output: {
     // need absolute path
