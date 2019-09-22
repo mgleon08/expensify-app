@@ -12,4 +12,12 @@ yarn add react-router-dom
 yarn add react-redux
 ```
 
+# moment & react-dates & react-addons-shallow-compare
+
+```
+yarn add moment
+yarn add react-dates
+yarn add react-addons-shallow-compare
+```
+
 - [react-router](https://github.com/ReactTraining/react-router)
