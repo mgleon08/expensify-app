@@ -21,3 +21,4 @@ yarn add react-addons-shallow-compare
 ```
 
 - [react-router](https://github.com/ReactTraining/react-router)
+- [https://github.com/zalmoxisus/redux-devtools-extension](redux-devtools-extension)
